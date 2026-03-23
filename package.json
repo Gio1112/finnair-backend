@@ -1,0 +1,23 @@
+{
+  "name": "finnair-web-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Railway-ready OAuth2 booking simulation API",
+  "main": "mock-booking-api.js",
+  "scripts": {
+    "start": "node mock-booking-api.js",
+    "dev": "node mock-booking-api.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  }
+}
